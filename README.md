@@ -1,5 +1,7 @@
 # go-task-manager
 
+do not scale it!
+
 TODO:
 
 - [ ] add example
