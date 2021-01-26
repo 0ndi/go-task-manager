@@ -18,7 +18,7 @@ const (
 var (
 	manager         *TaskManager
 	mut             sync.Mutex
-	defaultWaitTime = time.Second * 5
+	defaultWaitTime = time.Second * 6
 
 	TaskNotFoundError       = errors.New("Task not found")
 	TaskAlreadyRunningError = errors.New("Task already running, wait until complete and try again")
